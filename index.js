@@ -11,22 +11,40 @@ They should return the result of the respective calculation:
 */
 
 function add(a, b) {
+  const sumAdd = a + b;
+  return a + b;
+  add(1, 1);
   // Code here
 }
 
 function subtract(a, b) {
+  const sumSubtract = a - b;
+  return a - b;
+
+  subtract(2, 2);
   // Code here
 }
 
 function multiply(a, b) {
+  const sumMultiply = a * b;
+  return a * b;
+
+  multiply(1, 1);
   // Code here
 }
 
 function divide(a, b) {
+  const sumDivide = a / b;
+  return a / b;
+
+  divide(1, 1);
   // Code here
 }
 
 function remainder(a, b) {
+  const sumRemainder = a % b;
+  return a % b;
+  remainder(1 % 2);
   // Code here
 }
 
